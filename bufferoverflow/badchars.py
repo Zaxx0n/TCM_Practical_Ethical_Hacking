@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # Script:                       badchars.py
 # Author:                       Zachary Derrick (TCM: Practical Ethical Hacking)
-# Date of latest revision:      2023.01.08
+# Date of latest revision:      2024.01.08
 # Purpose:                      This script is designed to test for vulnerabilities related to buffer overflows 
 #                               in a target server. It constructs a payload with a sequence of characters known
 #                               as badchars to identify potentially problematic characters. The payload is then 

