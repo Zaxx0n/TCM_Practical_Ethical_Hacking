@@ -1,6 +1,6 @@
 #!/bin/python3
-
-from Employees import Employees
+#
+from TCM_Practical_Ethical_Hacking.introductiontopython.Employees import Employees
 
 e1 = Employees("Bob", "Sales", "Director of Sales", 100000, 20)
 e2 = Employees("Linda", "Executive", "CIO", 150000, 10)
